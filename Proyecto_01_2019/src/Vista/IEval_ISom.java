@@ -29,13 +29,53 @@ public class IEval_ISom extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
+        buttonGroup2 = new javax.swing.ButtonGroup();
+        buttonGroup3 = new javax.swing.ButtonGroup();
+        buttonGroup4 = new javax.swing.ButtonGroup();
+        buttonGroup5 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
+        jLabel14 = new javax.swing.JLabel();
+        jRadioButton1 = new javax.swing.JRadioButton();
+        jRadioButton2 = new javax.swing.JRadioButton();
+        jRadioButton3 = new javax.swing.JRadioButton();
+        jRadioButton4 = new javax.swing.JRadioButton();
+        jRadioButton5 = new javax.swing.JRadioButton();
+        jRadioButton6 = new javax.swing.JRadioButton();
+        jRadioButton7 = new javax.swing.JRadioButton();
+        jRadioButton8 = new javax.swing.JRadioButton();
+        jRadioButton9 = new javax.swing.JRadioButton();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jTextField5 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(java.awt.Color.gray);
+        jPanel1.setBackground(java.awt.Color.darkGray);
 
         jLabel1.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
         jLabel1.setForeground(java.awt.Color.white);
@@ -48,7 +88,7 @@ public class IEval_ISom extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
-                .addContainerGap(455, Short.MAX_VALUE))
+                .addContainerGap(625, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -58,7 +98,146 @@ public class IEval_ISom extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 780, 40));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 950, 40));
+
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel3.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel3.setText("Título del artículo:");
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, -1, -1));
+
+        jTextField1.setEditable(false);
+        jTextField1.setBackground(java.awt.Color.lightGray);
+        jPanel2.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 15, 500, -1));
+
+        jLabel4.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel4.setText("Fecha tope:");
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 20, -1, -1));
+
+        jTextField2.setEditable(false);
+        jTextField2.setBackground(java.awt.Color.lightGray);
+        jPanel2.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 15, 140, -1));
+
+        jLabel2.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel2.setText("Responda cada una de las siguientes preguntas:");
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, -1, -1));
+
+        jLabel5.setFont(new java.awt.Font("Ubuntu", 1, 12)); // NOI18N
+        jLabel5.setForeground(java.awt.Color.black);
+        jLabel5.setText("En la sección Resumen:");
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, -1, -1));
+
+        jLabel6.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel6.setText("1. ¿Está estructurado según las secciones establecidas?");
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, -1, -1));
+
+        jLabel7.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel7.setText("2. ¿El resumen del artículo presenta una visión general del artículo?");
+        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel8.setText("3. ¿En qué grado usted se siente comprometido y motivado a continuar la lectura del artículo?");
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, -1, -1));
+
+        jLabel9.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel9.setText("4. ¿La contribución presentada en el artículo está claramente articulada en el resumen?");
+        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, -1, -1));
+
+        jLabel10.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel10.setText("5. ¿Qué puede mejorarse en el resumen? ");
+        jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, -1, -1));
+        jPanel2.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, 900, -1));
+
+        jLabel11.setFont(new java.awt.Font("Ubuntu", 1, 12)); // NOI18N
+        jLabel11.setForeground(java.awt.Color.black);
+        jLabel11.setText("En la sección Introducción:");
+        jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, -1, -1));
+
+        jLabel12.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel12.setText("6. ¿Está claramente definido el problema?");
+        jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 240, -1, -1));
+
+        jLabel13.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel13.setText("7. ¿Se presenta la importancia de la investigación?");
+        jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, -1, -1));
+        jPanel2.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 300, 890, -1));
+
+        jLabel14.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel14.setText("8. ¿Qué puede mejorarse en la introducción? ");
+        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, -1));
+
+        buttonGroup1.add(jRadioButton1);
+        jRadioButton1.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jRadioButton1.setText("SI");
+        jPanel2.add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 80, -1, -1));
+
+        buttonGroup1.add(jRadioButton2);
+        jRadioButton2.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jRadioButton2.setText("NO");
+        jPanel2.add(jRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 80, -1, -1));
+
+        buttonGroup2.add(jRadioButton3);
+        jRadioButton3.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jRadioButton3.setText("SI");
+        jPanel2.add(jRadioButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 100, -1, -1));
+
+        buttonGroup3.add(jRadioButton4);
+        jRadioButton4.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jRadioButton4.setText("No es interesante");
+        jPanel2.add(jRadioButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 120, -1, -1));
+
+        buttonGroup3.add(jRadioButton5);
+        jRadioButton5.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jRadioButton5.setText("Muy interesante");
+        jPanel2.add(jRadioButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 120, -1, -1));
+
+        buttonGroup2.add(jRadioButton6);
+        jRadioButton6.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jRadioButton6.setText("NO");
+        jPanel2.add(jRadioButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 100, -1, -1));
+
+        buttonGroup5.add(jRadioButton7);
+        jRadioButton7.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jRadioButton7.setText("SI");
+        jPanel2.add(jRadioButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 140, -1, -1));
+
+        buttonGroup5.add(jRadioButton8);
+        jRadioButton8.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jRadioButton8.setText("NO");
+        jPanel2.add(jRadioButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 140, -1, -1));
+
+        buttonGroup3.add(jRadioButton9);
+        jRadioButton9.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jRadioButton9.setText("Normal");
+        jPanel2.add(jRadioButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 120, -1, -1));
+
+        jLabel15.setFont(new java.awt.Font("Ubuntu", 1, 12)); // NOI18N
+        jLabel15.setForeground(java.awt.Color.black);
+        jLabel15.setText("En la sección Revisión de Literatura:");
+        jPanel2.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, -1, -1));
+
+        jLabel16.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel16.setText("9. ¿Se presenta un argumento lógico e integrado para establecer la necesidad del estudio?");
+        jPanel2.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, -1, -1));
+
+        jLabel17.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel17.setText("10. ¿Incluye literatura reciente y relevante?");
+        jPanel2.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, -1, -1));
+
+        jLabel18.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel18.setText("11. A  su juicio, ¿existen omisiones en la revisión de literatura?");
+        jPanel2.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, -1, -1));
+
+        jLabel19.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel19.setText("12. ¿Existe repetición o redundancia en la revisión de literatura?");
+        jPanel2.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 410, -1, -1));
+
+        jLabel20.setFont(new java.awt.Font("Ubuntu", 0, 12)); // NOI18N
+        jLabel20.setText("13. ¿Qué puede mejorarse en la revisión de literatura?");
+        jPanel2.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 430, -1, -1));
+        jPanel2.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 450, 890, -1));
+
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 960, 680));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -99,7 +278,46 @@ public class IEval_ISom extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.ButtonGroup buttonGroup2;
+    private javax.swing.ButtonGroup buttonGroup3;
+    private javax.swing.ButtonGroup buttonGroup4;
+    private javax.swing.ButtonGroup buttonGroup5;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JRadioButton jRadioButton1;
+    private javax.swing.JRadioButton jRadioButton2;
+    private javax.swing.JRadioButton jRadioButton3;
+    private javax.swing.JRadioButton jRadioButton4;
+    private javax.swing.JRadioButton jRadioButton5;
+    private javax.swing.JRadioButton jRadioButton6;
+    private javax.swing.JRadioButton jRadioButton7;
+    private javax.swing.JRadioButton jRadioButton8;
+    private javax.swing.JRadioButton jRadioButton9;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
     // End of variables declaration//GEN-END:variables
 }

@@ -65,8 +65,6 @@ public class IRevisor extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 450, 40));
 
-        jPanel2.setBackground(java.awt.Color.white);
-
         jButton1.setText("Evaluar Artículo");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 

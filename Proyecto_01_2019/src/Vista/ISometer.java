@@ -85,7 +85,6 @@ public class ISometer extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 880, 50));
 
-        jPanel3.setBackground(java.awt.Color.white);
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setText("Título del artículo:");
@@ -103,6 +102,7 @@ public class ISometer extends javax.swing.JFrame {
         jPanel3.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 80, 130, -1));
 
         jLabel4.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
+        jLabel4.setForeground(java.awt.Color.black);
         jLabel4.setText("Recomendación:");
         jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 123, -1, -1));
 
