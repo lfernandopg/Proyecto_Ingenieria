@@ -100,7 +100,7 @@
         <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="jLabel2">
+        <Component class="javax.swing.JLabel" name="lb_mensaje1">
           <Properties>
             <Property name="text" type="java.lang.String" value="T&#xed;tulo del art&#xed;culo:"/>
           </Properties>
@@ -110,7 +110,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField1">
+        <Component class="javax.swing.JTextField" name="tf_titulo">
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -123,7 +123,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel3">
+        <Component class="javax.swing.JLabel" name="lb_mensaje2">
           <Properties>
             <Property name="text" type="java.lang.String" value="Fecha tope:"/>
           </Properties>
@@ -133,7 +133,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField2">
+        <Component class="javax.swing.JTextField" name="tf_fechaT">
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -146,7 +146,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel4">
+        <Component class="javax.swing.JLabel" name="lb_mensaje3">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Ubuntu" size="15" style="1"/>
@@ -162,7 +162,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JSpinner" name="jSpinner1">
+        <Component class="javax.swing.JSpinner" name="sp_escala">
           <Properties>
             <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
               <SpinnerModel initial="1" maximum="3" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
@@ -174,7 +174,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="bt_confirmar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Confirmar"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -187,7 +187,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel5">
+        <Component class="javax.swing.JLabel" name="lb_mensaje4">
           <Properties>
             <Property name="text" type="java.lang.String" value="en una escala de 3 puntos"/>
           </Properties>
@@ -197,7 +197,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel6">
+        <Component class="javax.swing.JLabel" name="lb_mensaje5">
           <Properties>
             <Property name="text" type="java.lang.String" value="1: si recomienda que el art&#xed;culo se rechaza"/>
           </Properties>
@@ -207,7 +207,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel7">
+        <Component class="javax.swing.JLabel" name="lb_mensaje6">
           <Properties>
             <Property name="text" type="java.lang.String" value="2: si es publicable sujeto a modificaciones del autor, o"/>
           </Properties>
@@ -217,7 +217,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel8">
+        <Component class="javax.swing.JLabel" name="lb_mensaje7">
           <Properties>
             <Property name="text" type="java.lang.String" value="3: si se acepta para su publicaci&#xf3;n"/>
           </Properties>

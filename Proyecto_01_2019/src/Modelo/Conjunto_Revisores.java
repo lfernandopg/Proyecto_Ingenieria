@@ -1,9 +1,5 @@
 package Modelo;
 
-/**
- *
- * @author alexanyernas
- */
 public class Conjunto_Revisores {
     
     private Revisor Revisores[];

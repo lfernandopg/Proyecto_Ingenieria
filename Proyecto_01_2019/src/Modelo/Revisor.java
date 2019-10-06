@@ -1,9 +1,5 @@
 package Modelo;
 
-/**
- *
- * @author alexanyernas
- */
 public class Revisor {
     private final String login;
     private final String clave;

@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Vista;
 
-/**
- *
- * @author alexanyernas
- */
 public class IDialogo_SeleccionA extends javax.swing.JFrame {
 
     /**
@@ -33,9 +24,9 @@ public class IDialogo_SeleccionA extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        lb_mensaje1 = new javax.swing.JLabel();
+        lb_mensaje2 = new javax.swing.JLabel();
+        bt_aceptar = new javax.swing.JButton();
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -79,15 +70,15 @@ public class IDialogo_SeleccionA extends javax.swing.JFrame {
 
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setText("Su evaluación ya fue sometida, o la");
-        jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, -1, -1));
+        lb_mensaje1.setText("Su evaluación ya fue sometida, o la");
+        jPanel3.add(lb_mensaje1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, -1, -1));
 
-        jLabel3.setText("fecha tope se excedió");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
+        lb_mensaje2.setText("fecha tope se excedió");
+        jPanel3.add(lb_mensaje2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
 
-        jButton1.setText("Aceptar");
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 100, 90, 35));
+        bt_aceptar.setText("Aceptar");
+        bt_aceptar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel3.add(bt_aceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 100, 90, 35));
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 340, 180));
 
@@ -131,12 +122,12 @@ public class IDialogo_SeleccionA extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton bt_aceptar;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JLabel lb_mensaje1;
+    private javax.swing.JLabel lb_mensaje2;
     // End of variables declaration//GEN-END:variables
 }

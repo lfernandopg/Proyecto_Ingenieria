@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Vista;
 
-/**
- *
- * @author alexanyernas
- */
 public class ISeleccionA extends javax.swing.JFrame {
 
     /**
@@ -33,10 +24,10 @@ public class ISeleccionA extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
+        lb_mensaje1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
-        jButton1 = new javax.swing.JButton();
+        tb_titulos_fechas = new javax.swing.JTable();
+        bt_continuar = new javax.swing.JButton();
 
         jLabel2.setText("jLabel2");
 
@@ -71,10 +62,10 @@ public class ISeleccionA extends javax.swing.JFrame {
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setText("Artículos pendientes por evaluar: seleccione un artículo");
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, -1, -1));
+        lb_mensaje1.setText("Artículos pendientes por evaluar: seleccione un artículo");
+        jPanel2.add(lb_mensaje1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, -1, -1));
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        tb_titulos_fechas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null},
                 {null, null}
@@ -83,15 +74,15 @@ public class ISeleccionA extends javax.swing.JFrame {
                 "Títulos", "fechas tope"
             }
         ));
-        jTable1.setShowHorizontalLines(false);
-        jTable1.setShowVerticalLines(false);
-        jScrollPane1.setViewportView(jTable1);
+        tb_titulos_fechas.setShowHorizontalLines(false);
+        tb_titulos_fechas.setShowVerticalLines(false);
+        jScrollPane1.setViewportView(tb_titulos_fechas);
 
         jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, -1, 130));
 
-        jButton1.setText("Continuar");
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 240, 90, -1));
+        bt_continuar.setText("Continuar");
+        bt_continuar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel2.add(bt_continuar, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 240, 90, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 520, 300));
 
@@ -134,13 +125,13 @@ public class ISeleccionA extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton bt_continuar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
+    private javax.swing.JLabel lb_mensaje1;
+    private javax.swing.JTable tb_titulos_fechas;
     // End of variables declaration//GEN-END:variables
 }

@@ -1,9 +1,5 @@
 package Modelo;
 
-/**
- *
- * @author alexanyernas
- */
 public class Conjunto_Evaluaciones {
     private Evaluacion[] Evaluaciones;
     private int[] link_e;

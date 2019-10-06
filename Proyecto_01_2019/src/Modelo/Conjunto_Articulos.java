@@ -1,9 +1,5 @@
 package Modelo;
 
-/**
- *
- * @author alexanyernas
- */
 public class Conjunto_Articulos {
     private Articulo Articulos[];
     //variables de trabajo:

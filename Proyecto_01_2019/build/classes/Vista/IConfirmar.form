@@ -83,7 +83,7 @@
         <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="jLabel2">
+        <Component class="javax.swing.JLabel" name="lb_mensaje1">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#xbf;Confirma someter evaluaci&#xf3;n?"/>
           </Properties>
@@ -93,7 +93,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel3">
+        <Component class="javax.swing.JLabel" name="lb_mensaje2">
           <Properties>
             <Property name="text" type="java.lang.String" value="Si confirma, su evaluaci&#xf3;n y"/>
           </Properties>
@@ -103,7 +103,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel4">
+        <Component class="javax.swing.JLabel" name="lb_mensaje3">
           <Properties>
             <Property name="text" type="java.lang.String" value="recomendaci&#xf3;n es definitiva"/>
           </Properties>
@@ -113,7 +113,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="bt_si">
           <Properties>
             <Property name="text" type="java.lang.String" value="SI"/>
           </Properties>
@@ -123,7 +123,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton2">
+        <Component class="javax.swing.JButton" name="bt_no">
           <Properties>
             <Property name="text" type="java.lang.String" value="NO"/>
           </Properties>

@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Vista;
 
-/**
- *
- * @author alexanyernas
- */
 public class IConfirmar extends javax.swing.JFrame {
 
     /**
@@ -32,11 +23,11 @@ public class IConfirmar extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        lb_mensaje1 = new javax.swing.JLabel();
+        lb_mensaje2 = new javax.swing.JLabel();
+        lb_mensaje3 = new javax.swing.JLabel();
+        bt_si = new javax.swing.JButton();
+        bt_no = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -69,20 +60,20 @@ public class IConfirmar extends javax.swing.JFrame {
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setText("¿Confirma someter evaluación?");
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, -1, -1));
+        lb_mensaje1.setText("¿Confirma someter evaluación?");
+        jPanel2.add(lb_mensaje1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, -1, -1));
 
-        jLabel3.setText("Si confirma, su evaluación y");
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
+        lb_mensaje2.setText("Si confirma, su evaluación y");
+        jPanel2.add(lb_mensaje2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
 
-        jLabel4.setText("recomendación es definitiva");
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, -1, -1));
+        lb_mensaje3.setText("recomendación es definitiva");
+        jPanel2.add(lb_mensaje3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, -1, -1));
 
-        jButton1.setText("SI");
-        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, 60, 35));
+        bt_si.setText("SI");
+        jPanel2.add(bt_si, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 110, 60, 35));
 
-        jButton2.setText("NO");
-        jPanel2.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 110, 60, 35));
+        bt_no.setText("NO");
+        jPanel2.add(bt_no, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 110, 60, 35));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 300, 180));
 
@@ -125,13 +116,13 @@ public class IConfirmar extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JButton bt_no;
+    private javax.swing.JButton bt_si;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JLabel lb_mensaje1;
+    private javax.swing.JLabel lb_mensaje2;
+    private javax.swing.JLabel lb_mensaje3;
     // End of variables declaration//GEN-END:variables
 }

@@ -1,9 +1,5 @@
 package Modelo;
 
-/**
- *
- * @author alexanyernas
- */
 public class Articulo {
     private String codigo;
     private String titulo;

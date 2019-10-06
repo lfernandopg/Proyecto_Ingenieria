@@ -83,7 +83,7 @@
         <Property name="useNullLayout" type="boolean" value="false"/>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="jLabel2">
+        <Component class="javax.swing.JLabel" name="lb_mensaje1">
           <Properties>
             <Property name="text" type="java.lang.String" value="Por favor respondas las preguntas"/>
           </Properties>
@@ -93,7 +93,7 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="bt_aceptar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Aceptar"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">

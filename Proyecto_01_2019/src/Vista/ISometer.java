@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Vista;
 
-/**
- *
- * @author alexanyernas
- */
 public class ISometer extends javax.swing.JFrame {
 
     /**
@@ -33,17 +24,17 @@ public class ISometer extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jLabel3 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
-        jLabel4 = new javax.swing.JLabel();
-        jSpinner1 = new javax.swing.JSpinner();
-        jButton1 = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
+        lb_mensaje1 = new javax.swing.JLabel();
+        tf_titulo = new javax.swing.JTextField();
+        lb_mensaje2 = new javax.swing.JLabel();
+        tf_fechaT = new javax.swing.JTextField();
+        lb_mensaje3 = new javax.swing.JLabel();
+        sp_escala = new javax.swing.JSpinner();
+        bt_confirmar = new javax.swing.JButton();
+        lb_mensaje4 = new javax.swing.JLabel();
+        lb_mensaje5 = new javax.swing.JLabel();
+        lb_mensaje6 = new javax.swing.JLabel();
+        lb_mensaje7 = new javax.swing.JLabel();
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -87,43 +78,43 @@ public class ISometer extends javax.swing.JFrame {
 
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setText("Título del artículo:");
-        jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 36, -1, -1));
+        lb_mensaje1.setText("Título del artículo:");
+        jPanel3.add(lb_mensaje1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 36, -1, -1));
 
-        jTextField1.setEditable(false);
-        jTextField1.setBackground(java.awt.Color.lightGray);
-        jPanel3.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 30, 660, -1));
+        tf_titulo.setEditable(false);
+        tf_titulo.setBackground(java.awt.Color.lightGray);
+        jPanel3.add(tf_titulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 30, 660, -1));
 
-        jLabel3.setText("Fecha tope:");
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 86, -1, -1));
+        lb_mensaje2.setText("Fecha tope:");
+        jPanel3.add(lb_mensaje2, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 86, -1, -1));
 
-        jTextField2.setEditable(false);
-        jTextField2.setBackground(java.awt.Color.lightGray);
-        jPanel3.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 80, 130, -1));
+        tf_fechaT.setEditable(false);
+        tf_fechaT.setBackground(java.awt.Color.lightGray);
+        jPanel3.add(tf_fechaT, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 80, 130, -1));
 
-        jLabel4.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
-        jLabel4.setForeground(java.awt.Color.black);
-        jLabel4.setText("Recomendación:");
-        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 123, -1, -1));
+        lb_mensaje3.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
+        lb_mensaje3.setForeground(java.awt.Color.black);
+        lb_mensaje3.setText("Recomendación:");
+        jPanel3.add(lb_mensaje3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 123, -1, -1));
 
-        jSpinner1.setModel(new javax.swing.SpinnerNumberModel(1, 1, 3, 1));
-        jPanel3.add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, -1, -1));
+        sp_escala.setModel(new javax.swing.SpinnerNumberModel(1, 1, 3, 1));
+        jPanel3.add(sp_escala, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, -1, -1));
 
-        jButton1.setText("Confirmar");
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 160, 90, -1));
+        bt_confirmar.setText("Confirmar");
+        bt_confirmar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel3.add(bt_confirmar, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 160, 90, -1));
 
-        jLabel5.setText("en una escala de 3 puntos");
-        jPanel3.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, -1, -1));
+        lb_mensaje4.setText("en una escala de 3 puntos");
+        jPanel3.add(lb_mensaje4, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, -1, -1));
 
-        jLabel6.setText("1: si recomienda que el artículo se rechaza");
-        jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 140, -1, -1));
+        lb_mensaje5.setText("1: si recomienda que el artículo se rechaza");
+        jPanel3.add(lb_mensaje5, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 140, -1, -1));
 
-        jLabel7.setText("2: si es publicable sujeto a modificaciones del autor, o");
-        jPanel3.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 160, -1, -1));
+        lb_mensaje6.setText("2: si es publicable sujeto a modificaciones del autor, o");
+        jPanel3.add(lb_mensaje6, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 160, -1, -1));
 
-        jLabel8.setText("3: si se acepta para su publicación");
-        jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 180, -1, -1));
+        lb_mensaje7.setText("3: si se acepta para su publicación");
+        jPanel3.add(lb_mensaje7, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 180, -1, -1));
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 880, 210));
 
@@ -166,20 +157,20 @@ public class ISometer extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton bt_confirmar;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JSpinner jSpinner1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
+    private javax.swing.JLabel lb_mensaje1;
+    private javax.swing.JLabel lb_mensaje2;
+    private javax.swing.JLabel lb_mensaje3;
+    private javax.swing.JLabel lb_mensaje4;
+    private javax.swing.JLabel lb_mensaje5;
+    private javax.swing.JLabel lb_mensaje6;
+    private javax.swing.JLabel lb_mensaje7;
+    private javax.swing.JSpinner sp_escala;
+    private javax.swing.JTextField tf_fechaT;
+    private javax.swing.JTextField tf_titulo;
     // End of variables declaration//GEN-END:variables
 }

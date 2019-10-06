@@ -84,14 +84,14 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
                   <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <Component id="bt_evaluar_articulo" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <Component id="bt_someter_evaluacion" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="141" max="32767" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
-                  <Component id="jButton3" min="-2" pref="120" max="-2" attributes="0"/>
+                  <Component id="bt_finalizar" min="-2" pref="120" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -101,18 +101,18 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bt_evaluar_articulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bt_someter_evaluacion" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bt_finalizar" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="37" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="bt_evaluar_articulo">
           <Properties>
             <Property name="text" type="java.lang.String" value="Evaluar Art&#xed;culo"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -120,7 +120,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton2">
+        <Component class="javax.swing.JButton" name="bt_someter_evaluacion">
           <Properties>
             <Property name="text" type="java.lang.String" value="Someter Evaluaci&#xf3;n"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -128,7 +128,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton3">
+        <Component class="javax.swing.JButton" name="bt_finalizar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Finalizar"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -136,7 +136,7 @@
             </Property>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bt_finalizarActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
